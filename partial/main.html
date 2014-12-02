@@ -1,0 +1,251 @@
+<div class="main-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2 class="text-center">
+					Области применения:
+				</h2>
+				<div class="row use">
+					<div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="item in useitem">
+						<a data-target=".use-modal" data-toggle="modal"  href="" ng-click="setModal(item.number)">
+							<img ng-src={{item.image}} />
+							<div class="use-title">
+								<h4 class="white upper text-center">
+									{{item.title}}
+								</h4>
+							</div>
+						</a>
+					</div>
+				</div>
+				<table class="table footable">
+					<thead>
+						<tr>
+							<th class="nowrap">
+								№ п\п
+							</th>
+							<th>
+								Наименование продукции
+							</th>
+							<th data-hide="phone">
+								Описание
+							</th>
+							<th data-hide="phone, tablet">
+								Вес 1 м<sup><small>2</small></sup> в граммах
+							</th>
+							<th data-hide="phone, tablet">
+								Отрасль
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								1
+							</td>
+							<td>
+								БА-1-60Т
+							</td>
+							<td>
+								Основа - суперкаландрированная бумага повышенной гладкости, стабильность толщины
+							</td>
+							<td>
+								60
+							</td>
+							<td>
+								Все отрасли
+							</td>
+						</tr>
+						<tr>
+							<td>
+								2
+							</td>
+							<td>
+								БА-2-60Т
+							</td>
+							<td>
+								Основа - суперкаландрированная бумага повышенной гладкости, стабильность толщины
+							</td>
+							<td>
+								60
+							</td>
+							<td>
+								Все отрасли
+							</td>
+						</tr>
+						<tr>
+							<td>
+								3
+							</td>
+							<td>
+								БА-1-70 КБ
+							</td>
+							<td>
+								Основа - каландрированная бумага средней  гладкости, стабильность толщины
+							</td>
+							<td>
+								66...74
+							</td>
+							<td>
+								Все отрасли
+							</td>
+						</tr>
+						<tr>
+							<td>
+								4
+							</td>
+							<td>
+								БА-2-70 КБ
+							</td>
+							<td>
+								Основа - каландрированная бумага средней  гладкости, стабильность толщины
+							</td>
+							<td>
+								66...74
+							</td>
+							<td>
+								Все отрасли
+							</td>
+						</tr>
+						<tr>
+							<td>
+								5
+							</td>
+							<td>
+								БА-1-70
+							</td>
+							<td>
+								Основа - , эластичная бумага цвета крафт
+							</td>
+							<td>
+								68...72
+							</td>
+							<td>
+								Упаковка битумов, мастик при высоких температурах
+							</td>
+						</tr>
+						<tr>
+							<td>
+								6
+							</td>
+							<td>
+								БА-1-78
+							</td>
+							<td>
+								Основа - прочная, эластичная бумага цвета крафт
+							</td>
+							<td>
+								76...78
+							</td>
+							<td>
+								Упаковка битумов, мастик при высоких температурах
+							</td>
+						</tr>
+						<tr>
+							<td>
+								7
+							</td>
+							<td>
+								БА-1-95П
+							</td>
+							<td>
+								Основа-прочная, эластичная бумага цвета крафт
+							</td>
+							<td>
+								92...96
+							</td>
+							<td>
+								Все отрасли, лучшие антиадгезионные свойства
+							</td>
+						</tr>
+						<tr>
+							<td>
+								8
+							</td>
+							<td>
+								БА-2-95П
+							</td>
+							<td>
+								Основа-прочная, эластичная бумага цвета крафт
+							</td>
+							<td>
+								92...96
+							</td>
+							<td>
+								Все отрасли, лучшие антиадгезионные свойства
+							</td>
+						</tr>
+						<tr>
+							<td>
+								9
+							</td>
+							<td>
+								Пленка ПМА-1-35
+							</td>
+							<td></td>
+							<td>
+								50...54
+							</td>
+							<td>
+								Все отрасли
+							</td>
+						</tr>
+						<tr>
+							<td>
+								10
+							</td>
+							<td>
+								Пленка ПМА-1-25
+							</td>
+							<td></td>
+							<td>
+								39...42
+							</td>
+							<td>
+								Все отрасли
+							</td>
+						</tr>
+						<r>
+							<td>
+								11
+							</td>
+							<td>
+								Пленка ПМА-2-35
+							</td>
+							<td></td>
+							<td>
+								50...54
+							</td>
+							<td>
+								Все отрасли
+							</td>
+						</r>
+						<tr>
+							<td>
+								12
+							</td>
+							<td>
+								Пленка ПМА-2-25
+							</td>
+							<td></td>
+							<td>
+								39...42
+							</td>
+							<td>
+								Все отрасли
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="clients">
+					<h3>
+						Наши клиенты:
+					</h3>
+					<a href="#"><img alt="..." src="img/logo_technonikol.jpg" /></a><a href="#"><img alt="..." src="img/krovlya.png" /></a><a href="#"><img alt="..." src="img/krz.jpg" title="ЗАО &laquo;МПК &laquo;КРЗ&raquo;" /></a><a href="#"><img alt="..." src="img/tara.jpg" /></a><a href="#"><img alt="..." src="img/logo_rizolin.png" /></a><a href="#"><img alt="..." class="lukoil" src="img/lukoil_logo.svg" /></a>
+				</div>
+			</div>
+		</div>
+
+		<ng-include src="'include/modal-use.html'"></ng-include>
+
+	</div>
+</div>
